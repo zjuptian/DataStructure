@@ -13,7 +13,7 @@ public class stackImplByArray<T> {
 
     public void pop(){
         if(topOfStack == -1){
-            System.err.println("栈空！pop失败！");
+            System.out.println("栈空！pop失败！");
         }
         else{
             System.out.println(stack.get(topOfStack));
