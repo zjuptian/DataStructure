@@ -7,7 +7,7 @@ import java.util.List;
  * stack 数组实现
  * 包含两个成员变量： stack topOfStack
  */
-public class stackImplByArray<T> {
+public class StackImplByArray<T> {
     private List<T> stack = new ArrayList<>();
     private int topOfStack = -1;
 

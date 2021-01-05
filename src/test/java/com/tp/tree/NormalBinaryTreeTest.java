@@ -7,7 +7,7 @@ import org.junit.Test;
  * @Date: 2020/12/25 14:30
  * @Description:
  */
-public class normalBinaryTreeTest {
+public class NormalBinaryTreeTest {
     @Test
     public void test(){
         /**
@@ -18,13 +18,13 @@ public class normalBinaryTreeTest {
          *     ->7
          */
         //构造树
-        normalBinaryTree<Integer> node1 = new normalBinaryTree<>(1);
-        normalBinaryTree<Integer> node2 = new normalBinaryTree<>(2);
-        normalBinaryTree<Integer> node3 = new normalBinaryTree<>(3);
-        normalBinaryTree<Integer> node4 = new normalBinaryTree<>(4);
-        normalBinaryTree<Integer> node5 = new normalBinaryTree<>(5);
-        normalBinaryTree<Integer> node6 = new normalBinaryTree<>(6);
-        normalBinaryTree<Integer> node7 = new normalBinaryTree<>(7);
+        NormalBinaryTree<Integer> node1 = new NormalBinaryTree<>(1);
+        NormalBinaryTree<Integer> node2 = new NormalBinaryTree<>(2);
+        NormalBinaryTree<Integer> node3 = new NormalBinaryTree<>(3);
+        NormalBinaryTree<Integer> node4 = new NormalBinaryTree<>(4);
+        NormalBinaryTree<Integer> node5 = new NormalBinaryTree<>(5);
+        NormalBinaryTree<Integer> node6 = new NormalBinaryTree<>(6);
+        NormalBinaryTree<Integer> node7 = new NormalBinaryTree<>(7);
         node1.setLeftChild(node2);
         node1.setRightChild(node3);
         node2.setLeftChild(node4);

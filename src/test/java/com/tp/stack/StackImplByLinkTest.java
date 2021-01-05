@@ -7,10 +7,10 @@ import org.junit.Test;
  * @Date: 2020/12/24 13:59
  * @Description:
  */
-public class stackImplByLinkTest {
+public class StackImplByLinkTest {
     @Test
     public void test(){
-        stackImplByLink<Integer> stack = new stackImplByLink<>();
+        StackImplByLink<Integer> stack = new StackImplByLink<>();
         stack.push(new Node<Integer>(1));
         stack.push(new Node<Integer>(2));
         stack.pop();

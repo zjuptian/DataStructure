@@ -22,14 +22,14 @@ class Node<T>{
     }
 }
 
-public class stackImplByLink<T> {
+public class StackImplByLink<T> {
     private Node<T> stackBottom = new Node<>();
 
     private Node<T> stackTop = stackBottom;
-    public stackImplByLink() {
+    public StackImplByLink() {
     }
 
-    public stackImplByLink(Node<T> stackTop, Node<T> stackBottom) {
+    public StackImplByLink(Node<T> stackTop, Node<T> stackBottom) {
         this.stackTop = stackTop;
         this.stackBottom = stackBottom;
     }

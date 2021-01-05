@@ -9,12 +9,12 @@ import java.util.Comparator;
  * @Date: 2021/1/3 17:19
  * @Description:
  */
-public class binaryHeap<T extends Comparable<? super T>> {
+public class BinaryHeap<T extends Comparable<? super T>> {
     private int currentSize;
     private T[] array;
     private static final int DEFAULT_CAPACITY = 10;
 
-    public binaryHeap(T[] array) {
+    public BinaryHeap(T[] array) {
         currentSize = 0;
         this.array = array;
         for(int i = 1; i < array.length; i++){

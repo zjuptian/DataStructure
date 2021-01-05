@@ -2,11 +2,11 @@ package com.tp.stack;
 
 import org.junit.Test;
 
-public class stackImplByArrayTest {
+public class StackImplByArrayTest {
     @Test
 
     public void test() {
-        stackImplByArray<Integer> stack = new stackImplByArray<>();
+        StackImplByArray<Integer> stack = new StackImplByArray<>();
         stack.push(1);
         stack.push(2);
         stack.pop();

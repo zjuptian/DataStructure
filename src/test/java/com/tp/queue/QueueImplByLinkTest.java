@@ -7,10 +7,10 @@ import org.junit.Test;
  * @Date: 2020/12/24 17:31
  * @Description:
  */
-public class queueImplByLinkTest {
+public class QueueImplByLinkTest {
     @Test
     public void test(){
-        queueImplByLink<Integer> queue = new queueImplByLink<>();
+        QueueImplByLink<Integer> queue = new QueueImplByLink<>();
         queue.enqueue(new Node<Integer>(1));
         queue.enqueue(new Node<Integer>(2));
         queue.dequeue();

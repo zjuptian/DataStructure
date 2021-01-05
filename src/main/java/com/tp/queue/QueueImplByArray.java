@@ -9,13 +9,13 @@ import java.util.List;
  * @Date: 2020/12/25 10:03
  * @Description: 队列的数组实现
  */
-public class queueImplByArray<T> {
+public class QueueImplByArray<T> {
     private int currentSize = 0;
     private int maxSize = 10;
     private int front = 0;
     private int back = -1;
 
-    public queueImplByArray(int maxSize) {
+    public QueueImplByArray(int maxSize) {
         this.maxSize = maxSize;
     }
 

@@ -5,12 +5,12 @@ package com.tp.tree;
  * @Date: 2020/12/25 14:13
  * @Description: 二叉树实现
  */
-public class normalBinaryTree<T> {
+public class NormalBinaryTree<T> {
     private T value;
-    private normalBinaryTree<T> leftChild;
-    private normalBinaryTree<T> rightChild;
+    private NormalBinaryTree<T> leftChild;
+    private NormalBinaryTree<T> rightChild;
 
-    public normalBinaryTree(T value) {
+    public NormalBinaryTree(T value) {
         this.value = value;
     }
 
@@ -22,23 +22,23 @@ public class normalBinaryTree<T> {
         this.value = value;
     }
 
-    public normalBinaryTree<T> getLeftChild() {
+    public NormalBinaryTree<T> getLeftChild() {
         return leftChild;
     }
 
-    public void setLeftChild(normalBinaryTree<T> leftChild) {
+    public void setLeftChild(NormalBinaryTree<T> leftChild) {
         this.leftChild = leftChild;
     }
 
-    public normalBinaryTree<T> getRightChild() {
+    public NormalBinaryTree<T> getRightChild() {
         return rightChild;
     }
 
-    public void setRightChild(normalBinaryTree<T> rightChild) {
+    public void setRightChild(NormalBinaryTree<T> rightChild) {
         this.rightChild = rightChild;
     }
 
-    public void preoderTraversal(normalBinaryTree<T> root){
+    public void preoderTraversal(NormalBinaryTree<T> root){
         //递归
         //访问根节点
         System.out.println(root.value);
@@ -52,7 +52,7 @@ public class normalBinaryTree<T> {
         }
     }
 
-    public void inorderTraversal(normalBinaryTree<T> root){
+    public void inorderTraversal(NormalBinaryTree<T> root){
         //访问左孩子
         if(root.leftChild != null){
             inorderTraversal(root.leftChild);
@@ -65,7 +65,7 @@ public class normalBinaryTree<T> {
         }
     }
 
-    public void postorderTraversal(normalBinaryTree<T> root){
+    public void postorderTraversal(NormalBinaryTree<T> root){
         //访问左孩子
         if(root.leftChild != null){
             postorderTraversal(root.leftChild);

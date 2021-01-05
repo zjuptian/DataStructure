@@ -7,7 +7,7 @@ import org.junit.Test;
  * @Date: 2021/1/3 17:49
  * @Description:
  */
-public class binaryHeapTest {
+public class BinaryHeapTest {
     @Test
     public void test(){
         Integer[] array = new Integer[11];
@@ -21,7 +21,7 @@ public class binaryHeapTest {
         array[8] = 65;
         array[9] = 26;
         array[10] = 32;
-        binaryHeap<Integer> binaryHeap = new binaryHeap<>(array);
+        BinaryHeap<Integer> binaryHeap = new BinaryHeap<>(array);
         binaryHeap.insert(5);
         System.out.println("插入后");
         binaryHeap.showAll();

@@ -21,7 +21,7 @@ class Node<T>{
         this.next = next;
     }
 }
-public class queueImplByLink<T> {
+public class QueueImplByLink<T> {
     private Node<T> rear = new Node<>();
     private Node<T> front = rear;
 

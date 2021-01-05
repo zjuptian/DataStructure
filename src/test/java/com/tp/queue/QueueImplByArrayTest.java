@@ -7,10 +7,10 @@ import org.junit.Test;
  * @Date: 2020/12/25 10:38
  * @Description:
  */
-public class queueImplByArrayTest {
+public class QueueImplByArrayTest {
     @Test
     public void test(){
-        queueImplByArray<Integer> queue = new queueImplByArray<>(2);
+        QueueImplByArray<Integer> queue = new QueueImplByArray<>(2);
         queue.enqueue(1);
         queue.enqueue(2);
         queue.dequeue();
