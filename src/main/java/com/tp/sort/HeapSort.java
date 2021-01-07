@@ -3,7 +3,7 @@ package com.tp.sort;
 /**
  * @Author: zjuptian
  * @Date: 2021/1/6 22:52
- * @Description: 堆排序
+ * @Description: 堆排序，时间复杂度O(Nlog(N))
  */
 public class HeapSort {
     private static void percDown(int[] array, int i, int n){
