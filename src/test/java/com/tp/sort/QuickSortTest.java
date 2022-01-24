@@ -10,7 +10,8 @@ import org.junit.Test;
 public class QuickSortTest {
     @Test
     public void test(){
-        int[] array = {34,8,64,51,32,21,4,100,23,56,11,11};
+//        int[] array = {34,8,64,51,32,21,4,100,23,56,11,11};
+        int[] array = {39,28, 55, 87, 66, 3, 17, 39};
         QuickSort.quickSort(array,0,array.length-1);
         for(int i = 0; i < array.length; i++){
             System.out.print(array[i]+" ");

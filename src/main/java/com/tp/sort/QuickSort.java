@@ -15,21 +15,26 @@ public class QuickSort {
         j = right;
         temp = array[left];
         while(i<j){
-            while(array[i] <= temp && i < j){
-                i++;
-            }
             while(array[j] >= temp && i < j){
                 j--;
             }
             if(i < j){
-                t = array[i];
                 array[i] = array[j];
-                array[j] = t;
+            }
+            while(array[i] <= temp && i < j){
+                i++;
+            }
+            if(i < j){
+                array[j] = array[i];
             }
         }
-        array[left] = array[i];
         array[i] = temp;
         quickSort(array,left,j-1);
         quickSort(array,j+1,right);
     }
+    /*
+    39 28 55 87 66 17 39
+    39 28 17 87 66 55 39
+    87 28 17 39 66 55 39
+     */
 }
