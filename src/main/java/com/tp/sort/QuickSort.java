@@ -18,15 +18,11 @@ public class QuickSort {
             while(array[j] >= temp && i < j){
                 j--;
             }
-            if(i < j){
-                array[i] = array[j];
-            }
+            array[i] = array[j];
             while(array[i] <= temp && i < j){
                 i++;
             }
-            if(i < j){
-                array[j] = array[i];
-            }
+            array[j] = array[i];
         }
         array[i] = temp;
         quickSort(array,left,j-1);
